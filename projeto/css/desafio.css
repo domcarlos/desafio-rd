@@ -1,0 +1,183 @@
+/*submenu de segmentos*/
+.intro-estudos{
+  background: #ede9e5;
+}
+.intro-estudos h3{
+  margin: 15px 0 10px;
+}
+.intro-estudos p{
+  margin: 0 0 20px 0;
+}
+.nav-estudos{
+  background: #e6e1db;
+}
+.nav-estudos .nav a{
+  color:#555555;
+}
+.nav-estudos .nav a:hover{
+  background: #ede9e5;
+}
+/*case*/
+.case-header h1{
+  color: #507284;
+}
+.kpi-highlight{
+  font-size: 100px;
+  line-height: 100px;
+  float: left;
+}
+.case-kpis .times {
+  margin-top: 25px;
+  border-radius: 50%;
+  behavior: url(PIE.htc); /* remove if you don't care about IE8 */
+  width: 58px;
+  height: 58px;
+  padding: 8px;
+  background: #507284;
+  color: #fff;
+  text-align: center;
+  font: 32px Arial, sans-serif;
+  float: left;
+}
+.case-kpis .lupa{
+  padding:12 0 0 12px;
+}
+.logo img{
+  height: 80px;
+}
+.print{
+  margin: 0 0 20px 0;
+  position:relative;
+}
+.print img{
+  max-width: 400px;
+}
+.print .img-inside{
+  position:absolute;
+  top:15px;
+  left:17px;
+}
+.print .img-inside img{
+  max-width: 366px;
+}
+.ipad{
+  margin: 20px 0;
+  position:relative;
+}
+.ipad img{
+  max-width: 300px;
+}
+.ipad .img-ipad{
+  position: absolute;
+  top:17px;
+  left:29px;
+}
+.ipad .img-ipad img{
+  width: 235px;
+  height: 200px;
+}
+.kpi-info{
+  float: left;
+  max-width: 180px;
+  padding: 5px;
+  margin-top: 25px;
+}
+.case-description h4{
+  margin-top: 20px;
+}
+.case-description i{
+  float: left;
+}
+.case-description p{
+  margin-bottom: 20px;
+}
+.case-description-end .alone{
+  margin-top: 20px;
+}
+.case-testmonial{
+  background: #507284;
+  min-height: 140px;
+}
+.avatar-frame img{
+  width: 100px;
+  height: 100px;
+  -webkit-border-radius: 50px; /* Saf3+, Chrome */
+  border-radius: 50px; /* Opera 10.5, IE 9 */
+  /*-moz-border-radius: 30px;  Disabled for FF1+ */
+  position: absolute;
+  top: 140px; bottom: 0;
+  left: 0; right: 0;
+  margin: auto;
+  display: block;
+}
+.speech:before{
+  content:;
+}
+.person span{
+  font-weight: bold;
+  font-size: 16px;
+  margin-right: 10px;
+}
+.person{
+  color:#507284;
+  font-weight: lighter;
+}
+
+.seta-esquerda{
+  vertical-align: middle;
+  margin-right: 10px;
+  margin-top: 40px;
+  width: 10px; 
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent; 
+  border-right: 10px solid #fff;
+  float:left; 
+}
+.speech{
+  position:relative;
+  background: #fff;
+  padding: 5px 10px;
+  margin:20px 0 20px 10px;
+}
+.know-rd h5{
+  font-size: 28px;
+  font-weight: lighter;
+}
+.know-rd h5 span{
+  font-weight: bold;
+  margin-right: 10px;
+}
+.botao-rd{
+  text-align: center;
+  border:3px solid #507284;
+  background: #507284;
+  color: #fff;
+  font-size: 20px;
+  height: 60px;
+  line-height: 50px;
+  display: block; 
+  -webkit-border-radius: 3px; /* Saf3+, Chrome */
+  border-radius: 3px; /* Opera 10.5, IE 9 */
+  margin-bottom: 20px;
+}
+
+.botao-rd:hover{
+  border:3px solid #405b6a;
+  background: #405b6a;
+  color:#eee;
+  text-decoration: none;
+}
+footer{
+  background-image: none !important;
+}
+footer .container{
+  background-color: #846d50;
+}
+/*lines*/
+.case-header .container, .case-kpis .container, .case-description-end .container{
+  border-bottom: 1px solid #eee;
+}
+.linha-v{
+  border-left: 1px solid #eee;
+}
